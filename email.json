@@ -7,4 +7,3 @@ EOF
 git add email.json
 git commit -m "Add email.json with email address"
 git push origin main
-
