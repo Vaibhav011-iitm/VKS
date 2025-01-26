@@ -1,4 +1,8 @@
-echo '{"email": "22f3001831@ds.study.iitm.ac.in"}' > email.json
+cat <<EOF > email.json
+{
+  "email": "22f3001831@ds.study.iitm.ac.in"
+}
+EOF
 
 git add email.json
 git commit -m "Add email.json with email address"
